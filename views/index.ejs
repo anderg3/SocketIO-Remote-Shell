@@ -9,12 +9,22 @@
 <body>
     
     <input type="text" id="cmd-input">
+    <button onclick="send()">Enviar</button>
+    <br><br>
     <a id="cmd-output"></a>
 
     <script src="https://cdn.socket.io/4.4.0/socket.io.min.js"></script>
     <script>
         var link = "<%= link %>"
         var socket = io(link)
+
+        function send(){
+            socket.emit("message", document.getElementById("cmd-input").value)
+        }
+        
+        socket.on("response", data => {
+            document.getElementById("response").innerText = data
+        })
     </script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketIO Remote Shell</title>
+</head>
+<body>
+    
+    <input type="text" id="cmd-input">
+    <a id="cmd-output"></a>
+
+    <script src="https://cdn.socket.io/4.4.0/socket.io.min.js"></script>
+    <script>
+        var link = "<%= link %>"
+        var socket = io(link)
+    </script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-sudo python3 script.py
+echo CONTRASEÑA | sudo -S python3 RUTA/script.py

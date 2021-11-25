@@ -22,7 +22,7 @@ bash install.sh
 
 ## Configuracion
 
-Abrimos el archivo ```execute.sh``` y cambiamos CONTRASEÑA por tu contraseña de usuario y RUTA por la ruta donde se encuentra el usuario
+Editamos el archivo ```execute.sh``` y cambiamos CONTRASEÑA por tu contraseña de usuario y RUTA por la ruta donde se encuentra el usuario
 
 Ejemplo:
 ```

@@ -45,7 +45,7 @@ url = "https://miservidor.com/ngrok?link=" + tunnel
 
 ## Configuracion para el inicio automatico
 
-Primero le damos permisos de ejecucion a ```script.py```y ````execute.sh```
+Primero le damos permisos de ejecucion a ```script.py```y ```execute.sh```
 ```
 chmod o+x script.py
 chmod +x execute.sh

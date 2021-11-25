@@ -3,4 +3,6 @@
 ##Instalacion
 
 Primero descargamos git si no lo tenemos
-``` sudo apt install git ```
+``` 
+sudo apt install git
+```

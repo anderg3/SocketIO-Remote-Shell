@@ -1,1 +1,1 @@
-sudo python script.py
+sudo python3 script.py
